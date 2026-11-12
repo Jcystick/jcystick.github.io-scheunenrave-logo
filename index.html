@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scheunenrave</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+    video {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: contain;   /* "cover" füllt den Bildschirm, schneidet aber zu */
+    }
+  </style>
+</head>
+<body>
+  <video src="scheunenrave_loop.mp4" autoplay muted loop playsinline></video>
+</body>
+</html>
